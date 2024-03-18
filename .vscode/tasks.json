@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Compilar e executar",
+        "type": "shell",
+        "command": "gcc -o main lista_nomes.c main.c -Wall -Wextra",
+        "problemMatcher": "$gcc"
+      }
+    ]
+  }  
